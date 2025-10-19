@@ -10,7 +10,7 @@ buttons.forEach((btn) => {
     let name = btn.dataset.name;
     let price = parseFloat(btn.dataset.price);
 
-    cart.push({ name, price });
+    cart.push({ name, price }); 
     total += price;
 
     updateCart();
