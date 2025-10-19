@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🛒 Simple Cart System</h1>
+
+    <div class="products">
+      <div class="product">
+        <h3>Tea shirt</h3>
+        <p>price: $10</p>
+        <button class="add-to-cart" data-name="Tea shirt" data-price="10">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="product">
+        <h3>cap</h3>
+        <p>price: $20</p>
+        <button class="add-to-cart" data-name="Cap" data-price="20">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="product">
+        <h3>Black Shoes</h3>
+        <p>price: $30</p>
+        <button class="add-to-cart" data-name="Black Shoes" data-price="30">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="product">
+        <h3>Watch</h3>
+        <p>price: $40</p>
+        <button class="add-to-cart" data-name="Watch" data-price="40">
+          Add To Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cartList"></ul>
+      <h3 id="total">Total: $0</h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
